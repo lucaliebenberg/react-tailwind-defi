@@ -4,7 +4,7 @@ import terminal from "../assets/terminal.png";
 
 const Developers = () => {
   return (
-    <div className="w-full text-white bg-black pl-[200px] pt-[50px]">
+    <div className="w-full text-white bg-black pt-[50px]">
       <div className="max-w-[1240px] mx-auto px-4 py-16 md:flex">
         <div>
           <h1>Superpowers for DeFi developers.</h1>
