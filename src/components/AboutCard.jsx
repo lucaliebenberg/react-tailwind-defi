@@ -1,5 +1,4 @@
 import React from "react";
-import { AiFillPropertySafety } from "react-icons/ai";
 
 const AboutCard = (props) => {
   return (
