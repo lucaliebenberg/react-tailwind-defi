@@ -9,6 +9,10 @@
   --primary-purple: #6a00ff;
 }
 
+.outline {
+  background-color: transparent !important;
+}
+
 @layer base {
   * {
     @apply font-[Kanit];
