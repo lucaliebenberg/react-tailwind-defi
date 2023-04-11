@@ -23,20 +23,24 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
           <ul className="flex text-white items-center">
-            <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
-              Platform
-            </li>
-            <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
-              Developers
-            </li>
-            <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
-              Community
-            </li>
-            <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
-              About
-            </li>
+            <a href="#platform">
+              <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
+                Platform
+              </li>
+            </a>
+            <a href="#developers">
+              <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
+                Developers
+              </li>
+            </a>
+            <a href="#community">
+              <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
+                Community
+              </li>
+            </a>
+
             <button className="ml-4 hover:scale-105 duration-300 ease-in-out">
-              Use Defi
+              Connect your wallet
             </button>
           </ul>
         </div>
@@ -62,10 +66,15 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className="text-2xl">Platform</li>
-            <li className="text-2xl">Developers</li>
-            <li className="text-2xl">Community</li>
-            <li className="text-2xl">About</li>
+            <a href="#platform">
+              <li className="text-2xl">Platform</li>
+            </a>
+            <a href="#developers">
+              <li className="text-2xl">Developers</li>
+            </a>
+            <a href="#community">
+              <li className="text-2xl">Community</li>
+            </a>
             {/* <button className="m-8">Use Defi</button> */}
           </ul>
         </div>

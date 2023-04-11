@@ -1,11 +1,11 @@
 import React from "react";
-import { SiHiveBlockchain, SiStrapi, SiFsecure, SiHive } from "react-icons/si";
+import { SiHiveBlockchain, SiStrapi, SiFsecure } from "react-icons/si";
 import { VscServerProcess } from "react-icons/vsc";
 import AboutCard from "./AboutCard";
 
 const About = () => {
   return (
-    <div className="w-full bg-black text-white text-center">
+    <div className="w-full bg-black text-white text-center" id="platform">
       <div className="max-w-[1240px] mx-auto px-4 py-16 ">
         <div>
           <h1 className="py-4">A Growing Protocol Ecosystem</h1>
