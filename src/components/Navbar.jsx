@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-[90px] bg-black">
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
-        <div className="flex flex-row">
+        <div className="flex flex-row hover:cursor-pointer">
           <img
             src={Logo}
             height="40px"
@@ -75,7 +75,9 @@ const Navbar = () => {
             <a href="#community">
               <li className="text-2xl">Community</li>
             </a>
-            {/* <button className="m-8">Use Defi</button> */}
+            <button className="m-8 hover:scale-105 duration-300 ease-in-out">
+              Connect your wallet
+            </button>
           </ul>
         </div>
       </div>
