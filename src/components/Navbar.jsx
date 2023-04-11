@@ -32,7 +32,10 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger menu */}
-        <div onClick={handleNav} className="block md:hidden">
+        <div
+          onClick={handleNav}
+          className="block md:hidden hover:cursor-pointer"
+        >
           {nav ? (
             <AiOutlineClose size={30} className="text-white" />
           ) : (

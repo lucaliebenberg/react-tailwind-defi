@@ -22,8 +22,10 @@ const Hero = () => {
           applications.
         </p>
         <div>
-          <button className="m-2">Use Defi</button>
-          <button className="m-2">FAQ</button>
+          <button className="m-2 hover:scale-105 duration-300 ease-in-out">
+            Get Started Now
+          </button>
+          {/* <button className="m-2">FAQ</button> */}
         </div>
       </div>
       <div>

@@ -10,7 +10,9 @@ const Subscribe = () => {
           type="email"
           placeholder="Enter your email"
         />
-        <button>Sign Up</button>
+        <button className="hover:scale-105 duration-300 ease-in-out">
+          Sign Up
+        </button>
       </div>
       <div className="flex items-center justify-center py-2">
         <input className="mr-2" type="checkbox" />
