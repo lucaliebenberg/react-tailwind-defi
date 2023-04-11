@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Logo from "../assets/defi-logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -8,27 +9,34 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[90px] bg-white">
+    <div className="w-full h-[90px] bg-black">
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
-        <div>
-          <h1 className="text-[var(--primary-blue)]">ONESHEET</h1>
+        <div className="flex flex-row">
+          <img
+            src={Logo}
+            height="40px"
+            width="40px"
+            alt="DeFi Solutions logo"
+            className="mr-3"
+          />
+          <h1 className="text-[#00d8ff]">DS</h1>
         </div>
         <div className="hidden md:flex">
-          <ul className="flex text-[var(--primary-blue)] items-center">
+          <ul className="flex text-white items-center">
+            <li>Platform</li>
+            <li>Developers</li>
+            <li>Community</li>
             <li>About</li>
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Contact</li>
-            <button className="ml-4">Start free trial</button>
+            <button className="ml-4">Use Defi</button>
           </ul>
         </div>
 
-        {/* Hamburger Menu */}
-        <div className="block md:hidden" onClick={handleNav}>
+        {/* Hamburger menu */}
+        <div onClick={handleNav} className="block md:hidden">
           {nav ? (
-            <AiOutlineClose size={30} className="text-[var(--primary-blue)]" />
+            <AiOutlineClose size={30} className="text-white" />
           ) : (
-            <AiOutlineMenu size={30} className="text-[var(--primary-blue)]" />
+            <AiOutlineMenu size={30} className="text-white" />
           )}
         </div>
 
@@ -36,16 +44,16 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center"
+              ? "w-full bg-black text-white absolute top-[100px] left-0 flex justify-center text-center"
               : "absolute left-[-100%]"
           }
         >
           <ul>
+            <li className="text-2xl">Platform</li>
+            <li className="text-2xl">Developers</li>
+            <li className="text-2xl">Community</li>
             <li className="text-2xl">About</li>
-            <li className="text-2xl">Features</li>
-            <li className="text-2xl">Pricing</li>
-            <li className="text-2xl">Contact</li>
-            <button className="m-8">Start free trial</button>
+            {/* <button className="m-8">Use Defi</button> */}
           </ul>
         </div>
       </div>

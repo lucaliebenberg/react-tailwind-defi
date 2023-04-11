@@ -1,37 +1,35 @@
 import React from "react";
 
-// imports
-import heroImage from "../assets/heroProductImage.png";
+import heroVid from "../assets/video.mp4";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[100vh] top-[90px]">
-      <div className="w-full h-[90%] flex flex-col justify-center items-center text-[var(--primary-blue)] px-4 text-center">
-        <h1>Stupidly Simple </h1>
+    <div className="w-full h-[90vh] top-[90px]">
+      <video
+        className="object-cover h-full w-full absolute -z-10"
+        src={heroVid}
+        autoPlay
+        loop
+        muted
+      />
+      <div className="w-full h-[90%] flex flex-col justify-center items-center text-white px-4 text-center">
+        <h1>Decentralized</h1>
         <h1 className="py-2">
-          <span className="text-[var(--primary-blue)]">Accounting</span>{" "}
-          Software
+          <span className="blue">Trading</span> Protocol
         </h1>
-        <div className="my-4">
-          <img
-            src={heroImage}
-            alt="Onesheet Product"
-            width={500}
-            height={500}
-          />
-        </div>
-        <p className="text-xl py-[3rem] max-w-[55rem]">
-          Onesheet is an intuitive online accounting software that provides
-          users with an easy way to track financial information, manage
-          expenses, and generate detailed reports with just a few clicks.
+        <p className="text-xl py-4">
+          Guaranteed liquidity trading for millions of users and top Ethereum
+          applications.
         </p>
-        <div className="py-4">
-          {/* <button className="m-2">Start free trial</button> */}
-          {/* <button className="m-2">Learn More</button> */}
+        <div>
+          <button className="m-2">Use Defi</button>
+          <button className="m-2">FAQ</button>
         </div>
-        <div className="d-flex w-full h-full">
-          <div className="justify-center items-center text-white"></div>
-        </div>
+      </div>
+      <div>
+        <p className="text-center text-white text-2xl font-bold">
+          Total Volume Secured: $42,104,783,662.47
+        </p>
       </div>
     </div>
   );
