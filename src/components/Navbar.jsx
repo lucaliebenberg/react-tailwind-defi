@@ -23,11 +23,21 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
           <ul className="flex text-white items-center">
-            <li>Platform</li>
-            <li>Developers</li>
-            <li>Community</li>
-            <li>About</li>
-            <button className="ml-4">Use Defi</button>
+            <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
+              Platform
+            </li>
+            <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
+              Developers
+            </li>
+            <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
+              Community
+            </li>
+            <li className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out">
+              About
+            </li>
+            <button className="ml-4 hover:scale-105 duration-300 ease-in-out">
+              Use Defi
+            </button>
           </ul>
         </div>
 
