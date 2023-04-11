@@ -16,7 +16,7 @@ const Developers = () => {
             and billions of liquidity
           </p>
         </div>
-        <div className="flex justify-center w-full py-16">
+        <div className="flex justify-center w-full py-12">
           <img
             className="max-w-[250px] shadow-lg shadow-cyan-500/50"
             src={terminal}
