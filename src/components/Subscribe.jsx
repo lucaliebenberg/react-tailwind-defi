@@ -6,7 +6,7 @@ const Subscribe = () => {
       <h1>Join Our DeFi Community</h1>
       <div className="py-4">
         <input
-          className="p-4 rounded-3xl mr-4"
+          className="p-4 rounded-3xl mr-4 w-[300px]"
           type="email"
           placeholder="Enter your email"
         />
