@@ -3,24 +3,31 @@ import React from "react";
 const Subscribe = () => {
   return (
     <div
-      className="w-full px-4 py-16 bg-black text-white text-center"
-      id="community"
+      id="subscribe"
+      className="w-full h-auto bg-black pt-[8rem] pb-[2rem]"
+      data-aos="fade-in"
     >
-      <h1>Join Our DeFi Community</h1>
-      <div className="py-4">
-        <input
-          className="p-4 px-5 rounded-3xl mr-4 w-[300px]"
-          type="email"
-          placeholder="Enter your email"
-        />
-        <button className="hover:scale-105 duration-300 ease-in-out">
-          Sign Up
+      <div className="flex flex-col justify-center ">
+        <p className="text-white font-semibold text-[10px] text-center">
+          LIKE WHAT YOU SEE?
+        </p>
+        <h1 className="text-white font-semibold text-[38px] text-center">
+          Let's work together
+        </h1>
+        <p className="mt-5 max-w-[300px] md:max-w-[410px] lg:max-w-[384px] text-white text-center justify-center text-[13px] ml-auto mr-auto">
+          If you’re looking for a kick-ass digital ninja, I'm here to help!
+        </p>
+        <button className="w-[134px] h-[40px] rounded-[5px] bg-white text-tertiary mt-5 ml-auto mr-auto hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+          <a
+            href="mailto:defisolutions@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Get in touch
+          </a>
         </button>
       </div>
-      <div className="flex items-center justify-center py-2">
-        <input className="mr-2" type="checkbox" />
-        <p>Yes, I agree to receive email communications from DeFi</p>
-      </div>
+      <div className="w-[90vw] border-white"></div>
     </div>
   );
 };
