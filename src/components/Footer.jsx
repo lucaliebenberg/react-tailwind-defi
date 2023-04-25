@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaDribbbleSquare,
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
-} from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -25,30 +19,34 @@ const Footer = () => {
               className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
             />
           </a>
-          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+          <a
+            href="https://www.instagram.com/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             <FaInstagram
               size={30}
               className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
             />
           </a>
-          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+          <a href="https://www.twitter.com/" target={"_blank"} rel="noreferrer">
             <FaTwitterSquare
               size={30}
               className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
             />
           </a>
-          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+          {/* <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
             <FaGithubSquare
               size={30}
               className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
             />
-          </a>
-          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+          </a> */}
+          {/* <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
             <FaDribbbleSquare
               size={30}
               className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
             />
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-evenly mt-12">
