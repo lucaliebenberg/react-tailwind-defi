@@ -19,29 +19,39 @@ const Footer = () => {
           Let's grow together!.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare
-            size={30}
-            className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
-          />
-          <FaInstagram
-            size={30}
-            className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
-          />
-          <FaTwitterSquare
-            size={30}
-            className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
-          />
-          <FaGithubSquare
-            size={30}
-            className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
-          />
-          <FaDribbbleSquare
-            size={30}
-            className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
-          />
+          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+            <FaFacebookSquare
+              size={30}
+              className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
+            />
+          </a>
+          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+            <FaInstagram
+              size={30}
+              className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
+            />
+          </a>
+          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+            <FaTwitterSquare
+              size={30}
+              className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
+            />
+          </a>
+          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+            <FaGithubSquare
+              size={30}
+              className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
+            />
+          </a>
+          <a href="https://www.google.com/" target={"_blank"} rel="noreferrer">
+            <FaDribbbleSquare
+              size={30}
+              className="hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105"
+            />
+          </a>
         </div>
       </div>
-      <div className="lg:col-span-2 flex justify-between mt-12">
+      <div className="lg:col-span-2 flex justify-evenly mt-12">
         <div>
           <h6 className="font-medium text-gray-400 ml-3">Solutions</h6>
           <ul>
@@ -59,7 +69,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        {/* <div>
           <h6 className="font-medium text-gray-400 ml-3">Support</h6>
           <ul>
             <li className="py-2 text-sm hover:text-[#00d8ff] hover:cursor-pointer transition-all duration-300 ease-in-out hover:scale-105">
@@ -75,7 +85,7 @@ const Footer = () => {
               API Status
             </li>
           </ul>
-        </div>
+        </div> */}
         <div>
           <h6 className="font-medium text-gray-400 ml-3">Company</h6>
           <ul>
