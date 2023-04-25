@@ -120,7 +120,6 @@ const Navbar = () => {
               <li className="text-2xl">Community</li>
             </a>
             <button
-              id="walletButton"
               className="m-8 hover:scale-105 duration-300 ease-in-out"
               onClick={connectWalletPressed}
             >
